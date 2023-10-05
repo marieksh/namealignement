@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: names.csv
+    - url: selected_lines.csv
       enabled: true
       type: text/csv
     - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
@@ -34,13 +34,13 @@ taxonomies:
 #  enabled: false
 #
     - id: itis
-      enabled: true
+      enabled: false
       name: Integrated Taxonomic Information System
     - id: ncbi
-      enabled: true
+      enabled: false
       name: NCBI Taxonomy
     - id: discoverlife
-      enabled: true
+      enabled: false
       name: Discover Life Taxonomy
     - id: batnames
       enabled: false
@@ -61,7 +61,7 @@ taxonomies:
       enabled: false
       name: Mammal Diversity Database
     - id: ott
-      enabled: false
+      enabled: true
       name: Open Tree of Life Taxonomy
     - id: pbdb
       enabled: false
