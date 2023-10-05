@@ -3,7 +3,7 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: [selected_lines.csv](https://github.com/marieksh/namealignement/blob/main/selected_lines.csv)
+    - url: https://github.com/marieksh/namealignement/blob/main/selected_lines.csv
       enabled: true
       type: text/csv
     - url: https://docs.google.com/spreadsheets/u/0/d/1d-4X2xFdf-PkhXRsRu63Wx00kJiZsrNyCM9QqG2rvPA/export?format=tsv
